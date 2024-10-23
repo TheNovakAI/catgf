@@ -121,7 +121,7 @@ def post_new_tweet(tweet_text):
         print(f"Error posting new tweet: {e}")
 
 def main():
-    username = 'jusscubs'  # Replace with your actual username
+    username = 'catgfcoin'  # Replace with your actual username
 
     last_tweet = get_last_non_reply_tweet(username)
 
