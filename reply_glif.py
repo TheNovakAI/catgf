@@ -59,7 +59,7 @@ def generate_response(tweet_content):
     }
 
     payload = {
-        "id": "cm2jmya15000012r1v9ukjb5v",
+        "id": "cm2l3jh0k0002t5hauq7ql9p3",
         "inputs": {"tweet_content": tweet_content}
     }
 
@@ -117,7 +117,7 @@ def monitor_user_tweets(username):
         print(f"Error fetching tweets: {e}")
 
 # Main function for continuous monitoring
-def continuous_monitoring(username, interval=120):
+def continuous_monitoring(username, interval=300):
     while True:
         monitor_user_tweets(username)
         print(f"Waiting for {interval} seconds before checking for new tweets...")
