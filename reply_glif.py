@@ -117,7 +117,7 @@ def monitor_user_tweets(username):
         print(f"Error fetching tweets: {e}")
 
 # Main function for continuous monitoring
-def continuous_monitoring(username, interval=60):
+def continuous_monitoring(username, interval=120):
     while True:
         monitor_user_tweets(username)
         print(f"Waiting for {interval} seconds before checking for new tweets...")
