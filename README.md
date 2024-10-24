@@ -14,3 +14,9 @@ run `community_reply.py` to reply to the largest liked reply to your last main t
 
 run `ToT_reply.py` to reply to the latest tweet by ToT
 
+
+**UPDATE
+
+full autonomous versions of these scripts are in the folder `/autonomous`
+
+to run them ensure variables are set in `.env` and run each respectively.
